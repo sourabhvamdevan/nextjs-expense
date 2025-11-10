@@ -60,7 +60,7 @@ const closeMobileMenu=()=>{
 
 
         </div>
-
+{/* Desktop Navigation Links */}
 <div className='hidden md:flex items-center space-x-6'>
     <Link href='/'
     className='relative text-gray-700 dark:text-gray-300
@@ -79,12 +79,22 @@ const closeMobileMenu=()=>{
 
 
     </Link>
+    <Link href='/' className='
+    relative text-gray-700 dark: text-gray-300
+    hover:text-emrald-600 dark:hover:text-emerald-400 px-3
+    lg:px-4 py-2 rounded-xl text-sm font-medium
+    transition-all duration-200 hover:bg-emerald 50/50'></Link>
 
     
 
     
 
 
+</div>
+<div className='flex items-center space-x-1 sm:space-x-2'>
+    <div className='p-0.5 sm:p-1'>
+        <ThemeToggle/>
+    </div>
 </div>
 
     </div>
