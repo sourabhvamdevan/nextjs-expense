@@ -1,6 +1,6 @@
 
 
-import getRecords from '@/app/actions/getRecords';
+import getRecords from '@/app/actions/getRecord';
 import RecordItem from './RecordItem';
 import { Record } from '@/types/Record';
 
